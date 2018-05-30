@@ -1,4 +1,4 @@
-#  CS352: Web-Server
+#  CS352 Final Programming Assignment: Web-Server
 
 The main function of this program is to simulate a small scale HTTP 1.0 server that can be accessed by a browser. This web server supports concurrency, the handling of different MIME types, as well as support for cookies and the creation of dynamic content via CGI scripts. When running the program, the port number is the single arguement the program takes. The running server can than be accessed by entering the IP address of the machine running the program along with the port number in a web browser. 
 
