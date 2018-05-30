@@ -14,7 +14,7 @@ The web server provides support for HTTP GET, HEAD, and POST methods, as well as
 501 Not Implemented  
 505 HTTP Version Not Supported  
 
-In addition, if a POST request does not contain a Content-Length header, the server will return a 411 Length required status code. Any POST requested not targed to a CGI script will return with a 405 Method Not allowed header. 
+In addition, if a POST request does not contain a Content-Length header, the server will return a 411 Length required status code. Any POST request not targed to a CGI script will return with a 405 Method Not allowed header. 
 
 # Script Support
 There are two CGI scripts, Service.CGI, and Store.CGI. The service script provides an MD5 validation service. When the script is run, a webpage will be displayed that will allow a user to upload a file and enter an MD5 hash. The program will then create a dynamic webpage indicating if the resulting hash entered matches the hash of the file. 
