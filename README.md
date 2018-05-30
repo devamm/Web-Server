@@ -4,7 +4,7 @@ The main function of this program is to simulate a small scale HTTP 1.0 server t
 
 # Supported Commands
 The web server provides support for HTTP GET, HEAD, and POST methods, as well as additional support for cookies. All requests must be in the proper format for HTTP version 1.1 or lower. Any incorrectly formatted request will result in the server returning either a HTTP 400 or HTTP 505 error. In addition, the server will display the following status codes:
-200 OK
+200 OK<br>
 304 Not Modified
 400 Bad Request
 403 Forbidden
